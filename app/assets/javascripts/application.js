@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require fusioncharts/js/fusioncharts
+//= require fusioncharts/js/fusioncharts.charts
+//= require fusioncharts/js/themes/fusioncharts.theme.fint

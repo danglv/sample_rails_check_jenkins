@@ -30,7 +30,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'pry'
 end
@@ -43,4 +42,11 @@ end
 
 gem 'rails_best_practices'
 gem 'simplecov', '~> 0.11.2'
-
+gem 'rspec'
+gem 'devise'
+gem 'rubocop'
+gem 'rubocop-checkstyle_formatter'
+gem 'rails_admin'
+gem 'rails-data-explorer'
+gem 'fusioncharts-rails'
+gem 'reek'

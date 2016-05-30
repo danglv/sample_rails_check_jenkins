@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='/home/likewise-open/FRAMGIA/la.van.dang/workspace/sample_rails_check_jenkins/app/controllers/dashboard_controller.rb'>
+    <error column='0' line='4' message='calls (1..month).map 2 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='8' message='calls (1..month).map 2 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='5' message='calls (month - i).month 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='9' message='calls (month - i).month 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='10' message='calls (month - i).month 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='5' message='calls Time.now - (month - i).month 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='9' message='calls Time.now - (month - i).month 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='10' message='calls Time.now - (month - i).month 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='3' message='calls Time.now 4 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='5' message='calls Time.now 4 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='9' message='calls Time.now 4 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='10' message='calls Time.now 4 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='5' message='calls month - i 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='9' message='calls month - i 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='10' message='calls month - i 3 times' severity='warning' source='DuplicateMethodCall'/>
+    <error column='0' line='5' message='refers to month more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='9' message='refers to month more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='10' message='refers to month more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='1' message='has no descriptive comment' severity='warning' source='IrresponsibleModule'/>
+    <error column='0' line='2' message='has approx 9 statements' severity='warning' source='TooManyStatements'/>
+    <error column='0' line='4' message='has the variable name &apos;i&apos;' severity='warning' source='UncommunicativeVariableName'/>
+    <error column='0' line='8' message='has the variable name &apos;i&apos;' severity='warning' source='UncommunicativeVariableName'/>
+  </file>
+  <file name='/home/likewise-open/FRAMGIA/la.van.dang/workspace/sample_rails_check_jenkins/app/helpers/application_helper.rb'>
+    <error column='0' line='1' message='has no descriptive comment' severity='warning' source='IrresponsibleModule'/>
+  </file>
+  <file name='/home/likewise-open/FRAMGIA/la.van.dang/workspace/sample_rails_check_jenkins/lib/my_action.rb'>
+    <error column='0' line='7' message='has no descriptive comment' severity='warning' source='IrresponsibleModule'/>
+  </file>
+  <file name='/home/likewise-open/FRAMGIA/la.van.dang/workspace/sample_rails_check_jenkins/test/models/user_test.rb'>
+    <error column='0' line='3' message='has no descriptive comment' severity='warning' source='IrresponsibleModule'/>
+  </file>
+  <file name='/home/likewise-open/FRAMGIA/la.van.dang/workspace/sample_rails_check_jenkins/db/migrate/20160526055904_devise_create_users.rb'>
+    <error column='0' line='5' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='6' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='9' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='10' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='13' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='16' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='17' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='18' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='19' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='20' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='34' message='refers to t more than self (maybe move it to another class?)' severity='warning' source='FeatureEnvy'/>
+    <error column='0' line='1' message='has no descriptive comment' severity='warning' source='IrresponsibleModule'/>
+    <error column='0' line='2' message='has approx 14 statements' severity='warning' source='TooManyStatements'/>
+    <error column='0' line='3' message='has the variable name &apos;t&apos;' severity='warning' source='UncommunicativeVariableName'/>
+  </file>
+</checkstyle>

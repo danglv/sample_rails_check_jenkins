@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='config.ru'/>
+  <file name='Gemfile'>
+    <error line='3' column='0' severity='info' message='Extra blank line detected.' source='com.puppycrawl.tools.checkstyle.Style/EmptyLines'/>
+    <error line='6' column='4' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='Rakefile'>
+    <error line='2' column='80' severity='info' message='Line is too long. [90/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='app/models/user.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+  </file>
+  <file name='app/helpers/application_helper.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level module documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+  </file>
+  <file name='app/controllers/application_controller.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+  </file>
+  <file name='test/test_helper.rb'>
+    <error line='6' column='6' severity='info' message='Use nested module/class definitions instead of compact style.' source='com.puppycrawl.tools.checkstyle.Style/ClassAndModuleChildren'/>
+    <error line='7' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='test/models/user_test.rb'/>
+  <file name='config/application.rb'>
+    <error line='10' column='2' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='11' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='15' column='80' severity='info' message='Line is too long. [99/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='16' column='80' severity='info' message='Line is too long. [89/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='19' column='80' severity='info' message='Line is too long. [98/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='20' column='80' severity='info' message='Line is too long. [87/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/initializers/cookies_serializer.rb'/>
+  <file name='config/initializers/mime_types.rb'/>
+  <file name='config/initializers/filter_parameter_logging.rb'/>
+  <file name='config/initializers/backtrace_silencers.rb'>
+    <error line='3' column='80' severity='info' message='Line is too long. [107/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='6' column='80' severity='info' message='Line is too long. [112/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/initializers/devise.rb'>
+    <error line='9' column='80' severity='info' message='Line is too long. [154/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='15' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='34' column='80' severity='info' message='Line is too long. [83/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='39' column='80' severity='info' message='Line is too long. [84/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='41' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='42' column='80' severity='info' message='Line is too long. [88/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='43' column='80' severity='info' message='Line is too long. [89/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='53' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='57' column='80' severity='info' message='Line is too long. [81/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='58' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='64' column='80' severity='info' message='Line is too long. [83/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='66' column='80' severity='info' message='Line is too long. [84/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='95' column='80' severity='info' message='Line is too long. [86/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='97' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='99' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='100' column='80' severity='info' message='Line is too long. [83/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='101' column='80' severity='info' message='Line is too long. [83/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='105' column='80' severity='info' message='Line is too long. [150/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='127' column='80' severity='info' message='Line is too long. [86/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='129' column='80' severity='info' message='Line is too long. [84/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='165' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='174' column='80' severity='info' message='Line is too long. [83/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='199' column='80' severity='info' message='Line is too long. [84/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='204' column='80' severity='info' message='Line is too long. [86/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='206' column='80' severity='info' message='Line is too long. [81/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='214' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='248' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='256' column='80' severity='info' message='Line is too long. [81/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/initializers/assets.rb'>
+    <error line='10' column='80' severity='info' message='Line is too long. [93/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/initializers/inflections.rb'/>
+  <file name='config/initializers/wrap_parameters.rb'>
+    <error line='6' column='80' severity='info' message='Line is too long. [96/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/initializers/session_store.rb'>
+    <error line='3' column='80' severity='info' message='Line is too long. [96/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/routes.rb'>
+    <error line='3' column='80' severity='info' message='Line is too long. [84/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='15' column='80' severity='info' message='Line is too long. [81/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/boot.rb'/>
+  <file name='config/environment.rb'/>
+  <file name='config/environments/test.rb'>
+    <error line='2' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/environments/production.rb'>
+    <error line='2' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='34' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='38' column='80' severity='info' message='Line is too long. [102/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='44' column='80' severity='info' message='Line is too long. [96/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='64' column='80' severity='info' message='Line is too long. [100/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='config/environments/development.rb'>
+    <error line='2' column='80' severity='info' message='Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='30' column='80' severity='info' message='Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='bin/rails'/>
+  <file name='bin/spring'>
+    <error line='10' column='80' severity='info' message='Line is too long. [97/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='11' column='80' severity='info' message='Line is too long. [101/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+  <file name='bin/rake'/>
+  <file name='bin/setup'>
+    <error line='5' column='50' severity='info' message='Unnecessary spacing detected.' source='com.puppycrawl.tools.checkstyle.Style/ExtraSpacing'/>
+    <error line='11' column='7' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='12' column='9' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='13' column='9' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='21' column='9' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='24' column='9' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='25' column='9' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='28' column='9' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='bin/bundle'/>
+  <file name='db/migrate/20160526055904_devise_create_users.rb'>
+    <error line='1' column='0' severity='info' message='Missing top-level class documentation comment.' source='com.puppycrawl.tools.checkstyle.Style/Documentation'/>
+    <error line='2' column='2' severity='info' message='Method has too many lines. [15/10]' source='com.puppycrawl.tools.checkstyle.Metrics/MethodLength'/>
+    <error line='5' column='58' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='6' column='58' severity='info' message='Prefer single-quoted strings when you don&apos;t need string interpolation or special symbols.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='29' column='80' severity='info' message='Line is too long. [104/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='33' column='0' severity='info' message='Extra blank line detected.' source='com.puppycrawl.tools.checkstyle.Style/EmptyLines'/>
+  </file>
+  <file name='db/seeds.rb'>
+    <error line='1' column='80' severity='info' message='Line is too long. [103/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+    <error line='2' column='80' severity='info' message='Line is too long. [96/80]' source='com.puppycrawl.tools.checkstyle.Metrics/LineLength'/>
+  </file>
+</checkstyle>
